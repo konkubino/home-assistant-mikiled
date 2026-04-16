@@ -1,0 +1,6 @@
+{
+  "name": "MiKiLED",
+  "hide_default_branch": false,
+  "render_readme": true,
+  "homeassistant": "2023.12.0"
+}

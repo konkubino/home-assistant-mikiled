@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MiKiLED",
+        "description": "Enter the IP address or hostname of your MiKiLED device (HTTP API on port 80 by default).",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the device. Check the host, port, and network.",
+      "invalid_host": "Invalid host or IP address.",
+      "invalid_port": "Port must be between 1 and 65535.",
+      "blocked_host": "This address is not allowed (cloud metadata)."
+    },
+    "abort": {
+      "already_configured": "This MiKiLED device is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": {
+        "name": "Temperature"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
+      "firmware": {
+        "name": "Firmware"
+      },
+      "api_version": {
+        "name": "API version"
+      },
+      "mode": {
+        "name": "Connection mode"
+      },
+      "led_status": {
+        "name": "LED period"
+      },
+      "wifi_rssi": {
+        "name": "Wi-Fi signal"
+      },
+      "uptime": {
+        "name": "Uptime"
+      }
+    }
+  }
+}
